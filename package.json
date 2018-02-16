@@ -1,0 +1,11 @@
+{
+  "name": "nodejs",
+  "description": "Query a Node.js SQL Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
