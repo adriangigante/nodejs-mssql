@@ -3,7 +3,7 @@
   "description": "Query a Node.js SQL Server",
   "main": "server.js",
   "scripts": {
-  	"install": "npm install -g sequelize-cli",
+  	"install": "npm install -g tedious",
     "start": "node server.js"
   },
   "dependencies": {
