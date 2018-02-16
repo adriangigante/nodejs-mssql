@@ -19,7 +19,7 @@ app.get('/', function (req, res) {
         if (err) {
             console.log(err);
         } else {
-            sqlreq = new request("SELECT TOP 10 mountain, elevation FROM Peaks ORDER BY elevation DESC FOR JSON AUTO", function(err, rowCount) {
+            sqlreq = new request("SELECT TOP 10 id, mountain, elevation FROM Peaks ORDER BY elevation DESC FOR JSON AUTO", function(err, rowCount) {
                 if (err) {
                     console.log(err);
                 }
