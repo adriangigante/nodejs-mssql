@@ -7,8 +7,8 @@ app.get('/', function (req, res) {
     //set up the connection information
     var config = {
         userName: 'sa',
-        password: 'RedHat123!', // update me
-        server: '127.0.0.1',
+        password: 'RedHat123!',
+        server: '10.0.2.15',
         options: {
             database: 'NH_MTN_DB'
         }
